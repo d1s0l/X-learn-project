@@ -1,3 +1,5 @@
+//on server render
+
 type Params ={
     tag?: string
 }

@@ -8,6 +8,7 @@ import { match } from "path-to-regexp";
 
 export function Menu() {
     const pathName = usePathname();
+
     return(
         <nav className="flex gap-6 text-m">
             {MENU.map(menuItem => (
