@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
+import { Explore } from "./Explore";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
     title: 'Explore',
     description: 'Explore - X app'
 }
 
-export default function Explore() {
+export default function ExplorePage() {
   return (
-    <div>
-        <h1>Explore</h1>
-    </div>
-  );
+    <Suspense>
+      <Explore />
+    </Suspense>
+  )
 }

@@ -3,7 +3,7 @@
 import { PAGES } from "@/config/pages.config"
 import Link from "next/link"
 import { usePathname } from "next/navigation";
-import type { IMenuItem } from "./Mebu.data";
+import type { IMenuItem } from "./Menu.data";
 
 interface Props {
     menuItem: IMenuItem

@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathname } from "next/navigation";
-import { MENU } from "./Mebu.data";
+import { MENU } from "./Menu.data";
 import { MenuItem } from "./MenuItem";
 import { match } from "path-to-regexp";
 
